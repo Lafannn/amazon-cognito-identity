@@ -1,3 +1,19 @@
+## 3.6.0
+- http dependency includes older 0.13.1 version as valid
+- added: additional support for mfa functionalities
+
+## 3.6.0-dev.1
+- http dependency includes older 0.13.1 version as valid
+
+## 3.5.0
+- dependencies are updated to the latest
+
+## 3.4.0
+- fixed: SocketException when network is disabled
+
+## 3.3.0
+- changed: a specific exception `CognitoUserDeviceConfirmationNecessaryException` that can be handled whenever an users device needs confirmation is separated from `CognitoUserConfirmationNecessaryException`
+
 ## 3.2.0
 - added: better handling of unverified phone numbers using sms mfa
 - added: allow CUSTOM_AUTH authentication flow via SRP password verification
